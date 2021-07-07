@@ -1,4 +1,3 @@
-
 class Bus
 
   attr_reader :name, :capacity, :passengers
@@ -16,8 +15,9 @@ class Bus
   def yell_at_passengers
 
     # I feel like I should be doing this with .each but I am blanking out
-    # and did a google search and the second option below to return an array
-    #that is uppercased
+    # and did a google search and tried the second option below to return an array
+    # that is uppercased
+    
     # @passengers.each do |passenger|
     #   @passengers << passenger.upcase
     # end

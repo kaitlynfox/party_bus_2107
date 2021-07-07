@@ -95,19 +95,7 @@ describe Bus do
         expect(bus.number_of_passengers).to eq(3)
         expect(bus.over_capcity?).to eq(false)
         expect(bus.passengers).to eq("James", "Cat", "Alice")
-
       end
     end
   end
-
-
-
-
-
-
-
-
-
-
-
 end
